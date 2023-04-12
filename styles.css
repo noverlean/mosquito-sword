@@ -1,0 +1,153 @@
+*, *::after, *::before {
+    margin: 0;
+}
+
+:root
+{
+    --dark: rgb(17, 17, 17);
+    --dark-white: rgb(53, 53, 53);
+    --white: rgb(255, 255, 255);
+    --red: #a14949;
+    --green: #49A16C;
+    --grey: #c0c0c0;
+}
+
+@media (max-width: 950px) and (min-width: 400px) {
+    body
+    {
+        flex-direction: column;
+    }
+
+    nav
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 580px) and (min-width: 300px) {
+    body
+    {
+        zoom: .6; 
+        -moz-transform: scale(.6); 
+        -moz-transform-origin: 0 0;
+        flex-direction: column;
+    }
+
+    nav
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 300px) and (min-width: 150px) {
+    body
+    {
+        zoom: .3; 
+        -moz-transform: scale(.3); 
+        -moz-transform-origin: 0 0;
+        flex-direction: column;
+    }
+
+    nav
+    {
+        width: 100%;
+    }
+}
+
+
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    min-width: 150px;
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    overflow: scroll;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 665px;
+    overflow: scroll; 
+    background-color: var(--dark-white);
+}
+nav::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.card {
+    height: 450px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: box-shadow .2s linear;
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    padding: calc(50px / 2);
+    color: var(--dark);
+}
+
+.iconOptions {
+    background-color: var(--dark);
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.nameOptions {
+    font-family: 'Cairo', sans-serif;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.leftPlace {
+    margin: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 55%;
+    opacity: .9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pangolin', cursive;
+    font-size: 35px;
+}
+
+.discriptionOptions
+{
+    font-family: 'Cairo', sans-serif;
+    line-height: 1.3;
+    font-family: 'Caveat', cursive;
+    font-size: 26px;
+}
+
+.negativeCard
+{
+    background-image: linear-gradient(var(--grey), var(--red));
+}
+
+.positiveCard
+{
+    background-image: linear-gradient(var(--grey), var(--green));
+}
+
+.bold
+{
+    font-weight: bold;
+}
