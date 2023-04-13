@@ -12,6 +12,10 @@
     --grey: #c0c0c0;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+}
+
 @media (max-width: 950px) and (min-width: 400px) {
     body
     {
@@ -97,12 +101,11 @@ main {
     z-index: 1;
     padding: calc(50px / 2);
     color: var(--dark);
+    border: 0;
 }
 
 .iconOptions {
     background-color: var(--dark);
-    height: 300px;
-    width: 300px;
     border-radius: 10px;
     object-position: 50% 50%;
     overflow: hidden;

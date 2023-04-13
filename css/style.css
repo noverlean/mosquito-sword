@@ -1,9 +1,10 @@
-body
+section
 {
     margin: 0;
     padding: 0;
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: url('../images/body-fon.jpg');
 }
 
 .nav-link
