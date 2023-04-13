@@ -104,6 +104,13 @@ nav::-webkit-scrollbar {
     height: 300px;
     width: 300px;
     border-radius: 10px;
+    object-position: 50% 50%;
+    overflow: hidden;
+}
+.iconOptions img
+{
+    width: 100%;
+    height: auto;
 }
 
 .nameOptions {
