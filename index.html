@@ -1,85 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cairo&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <title>Летели комарики на воздушном шарике</title>
 </head>
-<body>
-    <div class="leftPlace">
-        Множество положительных отзывов!!! - наше кредо.<br><br>        
-    </div>
-    <nav>
-        <article class="card positiveCard" onclick="">
-            <div class="iconOptions"></div>
-            <div class="nameOptions bold">Комар Павел</div>
-            <div class="discriptionOptions">
-                Никогда не видел ничего лучше. 5 из 5!!!
-            </div>
-        </article>
-        <article class="card positiveCard" onclick="">
-            <div class="iconOptions"></div>
-            <div class="nameOptions bold">Комар Екатерина</div>
-            <div class="discriptionOptions">
-                Лучше пудры в моем клеше может быть только двуствольный дробовик и классическая шпага.
-            </div>
-        </article>
-        <article class="card negativeCard" onclick="">
-            <div class="iconOptions"></div>
-            <div class="nameOptions bold">Комар Вениамин</div>
-            <div class="discriptionOptions">
-                А я просто шизанутый! Ы!0_0
-            </div>
-        </article>
-        <article class="card positiveCard" onclick="">
-            <div class="iconOptions"></div>
-            <div class="nameOptions bold">Комар Суслик02</div>
-            <div class="discriptionOptions">
-                Круто, очень кравится, советую.
-            </div>
-        </article>
-        <article class="card positiveCard" onclick="">
-            <div class="iconOptions"></div>
-            <div class="nameOptions bold">Комар Артемий</div>
-            <div class="discriptionOptions">
-                Я хоть и панк, но мне не ***. Очень крутой продукт, советую!
-            </div>
-        </article>
-        <article class="card positiveCard" onclick="">
-            <div class="iconOptions"></div>
-            <div class="nameOptions bold">Комар Петр</div>
-            <div class="discriptionOptions">
-                Ле-ле-лет ми дай... Ах да, очень нравится, 5/5...
-            </div>
-        </article>
-        <article class="card positiveCard" onclick="">
-            <div class="iconOptions"></div>
-            <div class="nameOptions bold">Комар Елизавета</div>
-            <div class="discriptionOptions">
-                Ты котик - я коти... Комарик... Бззз... А так советую конечно.
-            </div>
-        </article>
-    </nav>
-    
+<body background="images/body-fon.jpg">
+    <nav class="navbar navbar-expand-lg  navbar-light">
+        <div class="container-fluid">
+          <img src="images/logo.png" alt="logo" class="col-6 col-lg-3">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><img src="images/icons8-list-48.png" alt=""></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav col-lg-9 justify-content-between">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Товары</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Отзывы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">О нас</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="row">
+        <span class="col-6" style="font-weight: 600; color:white; display:flex; font-size: 2vw; margin-left: 5%; margin-top: 5%;">Добро пожаловать в наш магазин шпаг для комаров, где вы можете найти уникальный подарок для вашего маленького друга! Мы рады представить вам лучшие шпашки по лучшей цене</span>
+        <img src="images/комарик.png" alt="comarik" class="col-4">
+        </div>
+      </div>
+      <div class="container-fluid">
+        <span style="color: rgb(214, 207, 255); display: flex; justify-content: center; text-transform: uppercase; font-weight: 900; margin-top: 5%; font-size: 2vw;">Наш слоган</span>
+        <span style="color: white; display: flex; justify-content: center; font-weight: 500; margin-top: 1%; font-size: 1.8vw;">«И комар лошадь свалит, но элегантнее на шпагах»</span>
+      </div>
 </body>
-<script type="text/javascript" src="vanilla-tilt.js"></script>
-<script>
-    VanillaTilt.init({
-        max: 35,
-        speed: 400,
-        glare: true,
-        "max-glare": .5,
-    });
-    VanillaTilt.init(document.querySelectorAll("article"));
-</script>
 </html>
