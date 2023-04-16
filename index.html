@@ -28,13 +28,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav col-lg-9 justify-content-between">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">Товары</a>
+                <a class="nav-link " aria-current="page" href="#" id="0">Товары</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Отзывы</a>
+                <a class="nav-link" href="#" id="1">Отзывы</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">О нас</a>
+                <a class="nav-link" href="#" id="2">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="ChangeLanguage()" id="3">Ru</a>
               </li>
             </ul>
           </div>
@@ -42,67 +45,73 @@
       </nav>
       <div class="container-fluid">
         <div class="row">
-        <span class="col-6" style="font-weight: 600; color:white; display:flex; font-size: 2vw; margin-left: 5%; margin-top: 5%;">Добро пожаловать в наш магазин шпаг для комаров, где вы можете найти уникальный подарок для вашего маленького друга! Мы рады представить вам лучшие шпашки по лучшей цене</span>
+        <span class="col-6" style="font-weight: 600; color:white; display:flex; font-size: 2vw; margin-left: 5%; margin-top: 5%;"  id="4">
+          Добро пожаловать в наш магазин шпаг для комаров, где вы можете найти уникальный подарок для вашего маленького друга! Мы рады представить вам лучшие шпашки по лучшей цене
+        </span>
         <img src="images/комарик.png" alt="comarik" class="col-4">
         </div>
       </div>
       <div class="container-fluid">
-        <span style="color: rgb(214, 207, 255); display: flex; justify-content: center; text-transform: uppercase; font-weight: 900; margin-top: 5%; font-size: 2vw;">Наш слоган</span>
-        <span style="color: white; display: flex; justify-content: center; font-weight: 500; margin-top: 1%; font-size: 1.8vw;">«И комар лошадь свалит, но элегантнее на шпагах»</span>
+        <span id="5" style="color: rgb(214, 207, 255); display: flex; justify-content: center; text-transform: uppercase; font-weight: 900; margin-top: 5%; font-size: 2vw;">
+          Наш слоган
+        </span>
+        <span id="6" style="color: white; display: flex; justify-content: center; font-weight: 500; margin-top: 1%; font-size: 1.8vw;">
+          «И комар лошадь свалит, но элегантнее на шпагах»
+        </span>
       </div>
     </section>
 
     <main>
-      <div class="leftPlace">
+      <div id="7" class="leftPlace">
         Множество положительных отзывов!!! - наше кредо.<br><br>        
       </div>
       <div class="scroll">
         <article class="card positiveCard" onclick="">
             <div class="iconOptions"><img src="resources/12.jpg"></div>
-            <div class="nameOptions bold">Комар Павел</div>
-            <div class="discriptionOptions">
+            <div class="nameOptions bold"  id="8">Комар Павел</div>
+            <div class="discriptionOptions"  id="9">
                 Никогда не видел ничего лучше. 5 из 5!!!
             </div>
         </article>
         <article class="card positiveCard" onclick="">
             <div class="iconOptions"><img src="resources/22.png"></div>
-            <div class="nameOptions bold">Комар Екатерина</div>
-            <div class="discriptionOptions">
+            <div class="nameOptions bold" id="10">Комар Екатерина</div>
+            <div class="discriptionOptions" id="11">
                 Лучше пудры в моем клеше может быть только двуствольный дробовик и классическая шпага.
             </div>
         </article>
         <article class="card negativeCard" onclick="">
             <div class="iconOptions"><img src="resources/32.png"></div>
-            <div class="nameOptions bold">Комар Вениамин</div>
-            <div class="discriptionOptions">
+            <div class="nameOptions bold" id="12">Комар Вениамин</div>
+            <div class="discriptionOptions" id="13">
                 А я просто шизанутый! Ы!0_0
             </div>
         </article>
         <article class="card positiveCard" onclick="">
             <div class="iconOptions"><img src="resources/42.png"></div>
-            <div class="nameOptions bold">Комар Суслик02</div>
-            <div class="discriptionOptions">
+            <div class="nameOptions bold" id="14">Комар Суслик02</div>
+            <div class="discriptionOptions" id="15">
                 Круто, очень кравится, советую.
             </div>
         </article>
         <article class="card positiveCard" onclick="">
             <div class="iconOptions"><img src="resources/52.png"></div>
-            <div class="nameOptions bold">Комар Артемий</div>
-            <div class="discriptionOptions">
+            <div class="nameOptions bold" id="16">Комар Артемий</div>
+            <div class="discriptionOptions" id="17">
                 Я хоть и панк, но мне не ***. Очень крутой продукт, советую!
             </div>
         </article>
         <article class="card positiveCard" onclick="">
             <div class="iconOptions"><img src="resources/62.png"></div>
-            <div class="nameOptions bold">Комар Петр</div>
-            <div class="discriptionOptions">
+            <div class="nameOptions bold" id="18">Комар Петр</div>
+            <div class="discriptionOptions" id="19">
                 Ле-ле-лет ми дай... Ах да, очень нравится, 5/5...
             </div>
         </article>
         <article class="card positiveCard" onclick="">
             <div class="iconOptions"><img src="resources/72.png"></div>
-            <div class="nameOptions bold">Комар Елизавета</div>
-            <div class="discriptionOptions">
+            <div class="nameOptions bold" id="20">Комар Елизавета</div>
+            <div class="discriptionOptions" id="21">
                 Ты котик - я коти... Комарик... Бззз... А так советую конечно.
             </div>
         </article>
@@ -110,7 +119,7 @@
     </main>
 </body>
 <script type="text/javascript" src="vanilla-tilt.js"></script>
-<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script type="text/javascript" src="translator.js"></script>
 <script>
     VanillaTilt.init({
         max: 35,
