@@ -29,6 +29,15 @@ function TranslatePage()
         "Ле-ле-лет ми дай... Ах да, очень нравится, 5/5...",
         "Комар Елизавета",
         "Ты котик - я коти... Комарик... Бззз... А так советую конечно.",
+        "Заказать",
+        "Заказать",
+        "Заказать",
+        "Быстрая доставка",
+        "Быстрая доставка",
+        "Быстрая доставка",
+        "Массивная шпага в классической модификации. Вес данной шпаги способствует невероятной силе удара.",
+        "Утончённая шапага в элегантной модификации. Создана для искусства и сильнейших кольчатых ударов.",
+        "Шпага на заказ поможет подобрать идеальный по конфигурации вариант. Сбалансированное оружие под вашего воина.",
     ];
     var english = 
     [
@@ -54,6 +63,15 @@ function TranslatePage()
         "Le-le-let me die... Oh yeah, love it, 5/5...",
         "Mosquito Elizabeth",
         "You are a cat - I am a cat ... Mosquito ... Bzzz ... And of course I advise you.",
+        "To Order",
+        "To Order",
+        "To Order",
+        "Fast delivery",
+        "Fast delivery",
+        "Fast delivery",
+        "Massive sword in the classic version. The weight of this sword contributes to the incredible force of impact.",
+        "A sophisticated hat in an elegant modification. Designed for art and the strongest ringed strikes.",
+        "A custom-made sword will help you choose the perfect configuration option. Balanced weapon for your warrior.",
     ];
 
     if (languageState)

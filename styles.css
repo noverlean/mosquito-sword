@@ -17,7 +17,7 @@
 }
 
 @media (max-width: 950px) and (min-width: 400px) {
-    body
+    main
     {
         flex-direction: column;
     }
@@ -29,7 +29,7 @@
 }
 
 @media (max-width: 580px) and (min-width: 300px) {
-    body
+    main
     {
         zoom: .6; 
         -moz-transform: scale(.6); 
@@ -44,12 +44,19 @@
 }
 
 @media (max-width: 300px) and (min-width: 150px) {
-    body
+    main
     {
         zoom: .3; 
         -moz-transform: scale(.3); 
         -moz-transform-origin: 0 0;
         flex-direction: column;
+    }
+
+    .album .container .row .col
+    {
+        zoom: .4; 
+        -moz-transform: scale(.4); 
+        -moz-transform-origin: 0 0;
     }
 
     nav
