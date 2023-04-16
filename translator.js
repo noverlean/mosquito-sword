@@ -38,6 +38,7 @@ function TranslatePage()
         "Массивная шпага в классической модификации. Вес данной шпаги способствует невероятной силе удара.",
         "Утончённая шапага в элегантной модификации. Создана для искусства и сильнейших кольчатых ударов.",
         "Шпага на заказ поможет подобрать идеальный по конфигурации вариант. Сбалансированное оружие под вашего воина.",
+        "Шпажки для комаров - зрелище невероятных масштабов!",
     ];
     var english = 
     [
@@ -72,6 +73,7 @@ function TranslatePage()
         "Massive sword in the classic version. The weight of this sword contributes to the incredible force of impact.",
         "A sophisticated hat in an elegant modification. Designed for art and the strongest ringed strikes.",
         "A custom-made sword will help you choose the perfect configuration option. Balanced weapon for your warrior.",
+        "Swords for mosquitoes - a spectacle of incredible proportions!",
     ];
 
     if (languageState)
