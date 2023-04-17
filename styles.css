@@ -131,6 +131,11 @@ main {
     padding-bottom: 5px;
 }
 
+.myFont
+{
+    font-family: 'Cairo', sans-serif;
+}
+
 .leftPlace {
     margin: 0;
     background-size: contain;
@@ -143,8 +148,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Pangolin', cursive;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .discriptionOptions
